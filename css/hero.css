@@ -11,6 +11,8 @@ header{
 header h1{
     font-size: 90px;
     color: white;
+    text-shadow: 0px 4px 20px black;
+    text-transform: uppercase;
 }
 header img{
     border-radius: 400px;
@@ -28,6 +30,7 @@ p.caption{
     font-size: 16px;
     color: lightgrey;
     font-style: italic;
+    text-align: center;
 }
 ul{
     list-style: none;
@@ -49,6 +52,9 @@ footer{
 footer ul li{
     display: inline-block;
     margin: 0 5px;
+}
+a:hover{
+    background-color: #646464;
 }
 /*<header>
 <img src="css/naruto.png">
